@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+.app__form{
+place-items: center;
+  position: fixed;
+  bottom: 20px;
+  z-index: 1;
+  background-color: #e9e9eb;
+  display:flex;
+  width:100%;
+  margin:20px;
+}
+
+.app_formControl{
+  display:flex !important;
+  flex-direction: row !important;
+}
+.app__iconButton{
+  flex:0;
+}
+.app__input{
+  flex:1
+}
